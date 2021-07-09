@@ -17,7 +17,7 @@ pwd'''
             sh '''ls
 pwd
 cd ShellScript
-py_lint.sh
+sh py_lint.sh
 ls
 pwd'''
           }
@@ -25,7 +25,8 @@ pwd'''
 
         stage('Html code check') {
           steps {
-            sh 'html_lint.sh'
+            sh '''cd ShellScript
+sh html_lint.sh'''
           }
         }
 
