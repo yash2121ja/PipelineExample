@@ -16,7 +16,7 @@ pwd'''
             echo 'Checking code python'
             sh '''ls
 pwd
-cd /ShellScript/
+cd ShellScript
 py_lint.sh
 ls
 pwd'''
