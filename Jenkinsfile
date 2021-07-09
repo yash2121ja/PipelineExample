@@ -5,7 +5,8 @@ pipeline {
       steps {
         echo 'Flie checking'
         sh '''ls 
-pwd'''
+pwd
+pip3 install -r requirements.txt'''
       }
     }
 
