@@ -17,7 +17,9 @@ pwd'''
             sh '''ls
 pwd
 cd /ShellScript/
-py_lint.sh'''
+py_lint.sh
+ls
+pwd'''
           }
         }
 
