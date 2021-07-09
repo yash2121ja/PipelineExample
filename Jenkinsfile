@@ -14,7 +14,9 @@ pwd'''
         stage('Python and Html Linter') {
           steps {
             echo 'Checking code python'
-            sh '''cd /ShellScript/
+            sh '''ls
+pwd
+cd /ShellScript/
 py_lint.sh'''
           }
         }
