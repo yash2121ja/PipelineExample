@@ -6,7 +6,8 @@ pipeline {
         echo 'Flie checking'
         sh '''ls 
 pwd
-sudo pip3 install -r requirement.txt --user'''
+sudo pip3 install -r requirement.txt --user
+git pull'''
       }
     }
 
