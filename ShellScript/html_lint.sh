@@ -1,3 +1,4 @@
 echo "Html code checking start"
-python3 -m html-linter $(git ls-files '*.html')
+cd /home/ec2-user/.local/bin
+html_lint.py test.html
 echo "html code checked"
